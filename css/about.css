@@ -1,0 +1,131 @@
+/* HERO */
+.hero {
+  background-image: url("../images/about-right-bg.svg");
+  background-position: right 0 bottom 0;
+  padding: 12rem 0;
+}
+.hero__container {
+  display: flex;
+}
+.hero__title {
+  font-size: var(--heading1-small-font-size);
+  line-height: var(--heading1-large-font-height);
+}
+.hero__info {
+  width: 73rem;
+}
+.hero__line {
+  margin-bottom: 4rem;
+}
+.line {
+  background-color: var(--primary-light-color);
+}
+.her__descr {
+}
+/* TESTIMONIAL */
+.testimonial {
+  background-color: var(--secondary-deep-jungle-blue-color);
+  padding: 14rem 0;
+  text-align: center;
+  position: relative;
+}
+.testimonial {
+  background-image: url("../images/testi-left-bg.svg");
+  background-repeat: no-repeat;
+  background-position: left 0 top 0;
+}
+.testimonial::after {
+  content: "";
+  width: 147px;
+  height: 100px;
+  position: absolute;
+  background-image: url("../images/testi-right-bg.svg");
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: 0;
+}
+.testimonial__container {
+}
+.testimonial__title {
+  font-size: var(--heading2--font-size);
+  line-height: var(--heading2--font-height);
+  margin-bottom: 6.4rem;
+}
+.testimonial__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 7.6rem;
+  gap: 3rem;
+}
+.testi-item {
+  width: 34rem;
+  height: 25.3rem;
+  background-color: var(--secondary-sacramento-state-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3.2rem 0 5.6rem 0;
+  position: relative;
+}
+.testi-item:nth-child(1) {
+  margin-bottom: 7.6rem;
+}
+.testi__img {
+  margin-bottom: 1.6rem;
+}
+.testi__name {
+  color: var(--secondary-rapture-blue-color);
+  font-size: var(--main-font-size-1);
+  line-height: var(--main-font-height-2);
+}
+.testi__job {
+  font-size: var(--main-font-size-2);
+  line-height: var(--main-font-height-2);
+  font-style: italic;
+  font-weight: 500;
+}
+.testi__icon {
+  position: absolute;
+  bottom: -2.8rem;
+}
+.link-wrapper {
+  display: flex;
+  gap: 1.6rem;
+}
+.link-wrapper__img {
+}
+.close-wrapper {
+  padding: 3.5rem 4.8rem 0;
+}
+.close-wrapper .testi__job {
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 2.4rem;
+}
+/* CLIENTS */
+.clients {
+  padding: 14rem 0;
+  background-color: var(--secondary-sacramento-state-color);
+  text-align: center;
+  background-image: url("../images/clients-circle.svg");
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+}
+.clients__container {
+}
+.container {
+}
+.client__title {
+  font-size: var(--heading2--font-size);
+  line-height: var(--heading2--font-height);
+  margin-bottom: 7rem;
+}
+.clients__wapper {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+}
+.clients__link {
+}
+.clients__img {
+}
