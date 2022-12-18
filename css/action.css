@@ -33,6 +33,12 @@
   --heading3--font-height: 1.56;
 }
 /* HEADER */
+.sitenav__link,
+.header__btn,
+.action__btn,
+.footer__social_link > svg > path {
+  transition: 0.3s;
+}
 .sitenav__link:hover {
   color: var(--primary-light-color);
 }
